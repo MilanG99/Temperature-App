@@ -5,11 +5,11 @@ This web application is built using node.js as a runtime platform, and express f
 
 
 ### Functionality
-<img src="https://i.imgur.com/CSvM9l6.png" width=400><br>
+![City Example](demo/temp-app-two.PNG)
 
 This web application displays the current temperature of over 200,000 cities and locations by using the Current Weather Data API. The user can type in any location desired and the webpage will respond with the current temperature.
 
-<img src="https://i.imgur.com/nFapf40.gifv" width=400><br>
+![GIF Example](demo/temp-app-gif-one.gif)
 
 ### Features
 - [x] 1. User input of any location (City, State, Country)
