@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+     <!-- div is for animated background with pure css and html -->
+        <div class="container">
+            <fieldset>
+                <form action="/" method="post">
+                    <input name="city" type="text" class="ghost-input" placeholder="Enter a Location" required>
+                    <input type="submit" class="ghost-button" value="What's the weather?">
+                </form>
+                <% if(weather !== null){ %>
+                <p class="response"><%= weather %></p>
+                <% } %>
+
+                <% if(error !== null){ %>
+                <p class="response"><%= error %></p>
+                <% } %>
+            </fieldset>
+        </div>
+    <!--
+    <div class="animation-area">
+        <ul class="box-area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    -->
+
+  </body>
+    <div class="info">
+      <a>Created by Milan Gulati</a><br>
+      <a href="https://www.github.com/MilanG99">Github Repo</a>
+    </div>
+</html>
